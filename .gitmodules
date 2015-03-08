@@ -1,0 +1,3 @@
+[submodule "bitcoindictionary"]
+	path = bitcoindictionary
+	url = https://github.com/BitcoinDictionary/bitcoindictionary
