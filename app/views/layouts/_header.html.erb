@@ -1,0 +1,25 @@
+<div class="container">  
+  <form class="form-inline" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+    </div>
+    <button type="submit" class="btn btn-default">Search</button>
+  </form>
+
+  <ul class="nav nav-pills">
+    <li role="presentation" class="active">
+      <%= link_to("Home", "/")%>
+    </li>
+    <li role="presentation">
+      <%= link_to("Browse by letter", "/browse/letter")%>
+    </li>
+    <li role="presentation">
+      <%= link_to("Shop", "/shop/index") %>
+    </li>
+    <li role="presentation">
+      <%= link_to("Contributing", "/contributing/index") %>
+    </li>
+    <li role="presentation">
+      <%= link_to("About", "/about/index") %>
+    </li>
+  </ul>
